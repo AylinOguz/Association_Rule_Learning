@@ -11,7 +11,7 @@ The analysis and recommendation process are performed using the Apriori algorith
 
 ## Dataset
 
-Description: This dataset contains transactional data from a UK-based online retail store between 2010 and 2011.
+#### Description: This dataset contains transactional data from a UK-based online retail store between 2010 and 2011.
 
 ### Main Columns:
 
