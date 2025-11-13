@@ -36,29 +36,29 @@ Country: Customer’s country
 
 ### Data Preparation
 
-Load the Online Retail II dataset.
+- Load the Online Retail II dataset.
 
-Keep only transactions made in the United Kingdom for higher data consistency.
+- Keep only transactions made in the United Kingdom for higher data consistency.
 
-Remove missing values and cancelled transactions.
+- Remove missing values and cancelled transactions.
 
-Filter out products with extremely low frequency to reduce noise.
+- Filter out products with extremely low frequency to reduce noise.
 
 ### Data Transformation
 
-Convert the dataset into a basket–item matrix (each row = invoice, each column = product).
+- Convert the dataset into a basket–item matrix (each row = invoice, each column = product).
 
-Fill the matrix with binary values:
+- Fill the matrix with binary values:
 
-1 → the product was purchased
+- 1 → the product was purchased
 
-0 → the product was not purchased
+- 0 → the product was not purchased
 
 ### Applying the Apriori Algorithm
 
 - Use the Apriori algorithm to identify frequent itemsets based on a defined minimum support threshold.
 
--- These itemsets represent groups of products that are often bought together.
+- These itemsets represent groups of products that are often bought together.
 
 ### Generating Association Rules
 
