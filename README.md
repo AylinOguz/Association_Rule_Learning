@@ -11,25 +11,23 @@ The analysis and recommendation process are performed using the Apriori algorith
 
 ## Dataset
 
-Source: UCI Machine Learning Repository – Online Retail II
-
 Description: This dataset contains transactional data from a UK-based online retail store between 2010 and 2011.
 
-Main Columns:
+### Main Columns:
 
-Invoice: Unique transaction (basket) ID
+- Invoice: Unique transaction (basket) ID
 
-StockCode: Unique product ID
+- StockCode: Unique product ID
 
-Description: Product name
+- Description: Product name
 
-Quantity: Quantity of each product purchased
+- Quantity: Quantity of each product purchased
 
-InvoiceDate: Transaction date
+- InvoiceDate: Transaction date
 
-Price: Unit price of each product
+- Price: Unit price of each product
 
-Country: Customer’s country
+- Country: Customer’s country
 
 
 ## Project Workflow
